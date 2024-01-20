@@ -1,4 +1,4 @@
-# Space ERC 721A NFT Collection bridge from Etherium Goerli to Polygon Mumbai network  
+# Project-1: Space ERC 721A NFT Collection bridge from Etherium Goerli to Polygon Mumbai network  
 
 This repository contains a Solidity smart contract for Space NFTs (Non-Fungible Tokens). The contract is built using the ERC721 standard and extends the functionality with ERC721A, which supports batch minting.
 ### Requirements 
@@ -10,7 +10,6 @@ This repository contains a Solidity smart contract for Space NFTs (Non-Fungible 
 
 - Contract Name: Space
 - Symbol: Spc
-- Base URL for NFTs: "https://gateway.pinata.cloud/ipfs/QmUHVj7XKfSsjBfzfcnxhfY2C8hv7pvABWxbZ3WwT3EG9N/"
 - Prompt: "robots reading Sanskrit scripts in outer space to restore Earth"
   
 
@@ -51,7 +50,6 @@ npx hardhat run scripts/depositNFTsToFxChain.js --network <NETWORK_NAME>
 Note: Replace `<NETWORK_NAME>` with the desired network (e.g., "goerli", "rinkeby", etc.).
 
 
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
@@ -60,3 +58,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 - This project uses the ERC721A extension from `erc721a/contracts/ERC721A.sol`.
 - The `@openzeppelin/contracts/access/Ownable.sol` contract is used for ownership control.
+
+## Author
+
+Konsam Sajan Singh
